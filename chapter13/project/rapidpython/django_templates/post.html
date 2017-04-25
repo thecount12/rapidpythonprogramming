@@ -1,0 +1,42 @@
+{% extends "baseblog.html" %}
+
+
+{% block content %}
+<div class="title"><h4>{{ post.title }}</h4></div>
+<ul>
+    <div class="time"><b>Author: </b><u>{{ post.author}}</u>
+    <div class="time">{{ post.created }}</div>
+    <div class="body">{{ post.body|safe}}</div>
+</ul>
+
+<!-- Comments  -->
+
+{% if comments %}
+    <p>Comments:</p>
+{% endif %}
+
+{% for comment in comments %}
+    <div class="comment">
+        <div class="time">{{ comment.created }} | {{ comment.author }}</div>
+        <div class="body">{{ comment.body|linebreaks }}</div>
+    </div>
+{% endfor %}
+
+<br>
+<hr>
+<div id="addc">Add a comment</div>
+<!-- Comment form  -->
+<form action="/comment/{{post.pk}}/" method="POST">
+    <div id="cform">
+        Name: {{ form.author }}
+        <p>{{ form.body|linebreaks }}</p>
+    </div>
+    <div id="submit"><input type="submit" value="Submit"></div>
+</form>
+
+
+
+
+{% endblock %}
+
+

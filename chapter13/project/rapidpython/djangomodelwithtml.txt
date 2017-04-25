@@ -1,0 +1,12 @@
+<div class="body">{{ post.body|safe}}</div>
+
+
+this allows for html text in a db model that has TextField
+ 
+
+you can also chain filters
+
+{{content|safe}}
+or
+ {{content|wikify|safe}}
+

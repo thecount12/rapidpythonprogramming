@@ -1,0 +1,20 @@
+you have forget prefix of makemigrations command output file.
+
+when you run command
+
+python manage.py makemigrations polls
+then you will see in output 0001_any_name.py
+
+here 0001 is use in sqlmigrate command for create database that you forget to add in your command.
+
+So write command
+
+python manage.py sqlmigrate polls 0001
+It will works
+
+if you run python manage.py sqlmigrate pools 0001 
+
+it will then list the commands it did to change db
+
+stop server then restart start.sh script and look at results in django admin screen
+
