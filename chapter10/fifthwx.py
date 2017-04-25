@@ -1,0 +1,25 @@
+#!/usr/bin/python
+#fifth.py
+# Chapter 10 WxWidgets 
+# Author: William C. Gunnells
+# Rapid Python Programming
+
+# libs
+import wx
+
+class Blah(wx.Frame):
+	def __init__(self,x,y,z):
+		wx.Frame.__init__(self,x,y,z)
+		panel=wx.Panel(self)
+		button=wx.Button(panel,label="press me")
+		self.Bind(wx.EVT_BUTTON,self.closebutton,button)
+
+	def closebutton(self,event):
+		self.Close(True)
+
+app=wx.PySimpleApp()
+frame=Blah(x=None, y=-1,z="wow") 
+frame.Show()
+app.MainLoop()
+
+
