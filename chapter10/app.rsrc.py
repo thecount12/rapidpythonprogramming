@@ -52,7 +52,7 @@
     'name':'title', 
     'position':(210, 13), 
     'font':{'style': 'bold', 'faceName': u'Sans', 'family': 'sansSerif', 'size': 14}, 
-    'text':'Apartement Complex Check in', 
+    'text':'Apartment Complex Check in', 
     },
 
 {'type':'TextField', 
