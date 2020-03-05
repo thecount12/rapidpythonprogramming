@@ -6,7 +6,7 @@
 
 
 if __name__ == '__main__':
-	print 'access directly'
+	print('access directly')
 else:
-	print 'from import' 
+	print('from import')
 

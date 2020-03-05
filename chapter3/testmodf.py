@@ -7,5 +7,5 @@
 
 import fmodtest
 
-print "from import square(16)", fmodtest.square(16)
+print("from import square(16)", fmodtest.square(16))
 

@@ -6,7 +6,6 @@
 
 
 import sys
-for i in sys.argv:
- print i
 
- 
+for i in sys.argv:
+    print(i)

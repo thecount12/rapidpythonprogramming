@@ -7,11 +7,10 @@
 import sys
 
 if len(sys.argv) > 1:
-    print "Number of arguments:", len(sys.argv)-1
+    print("Number of arguments:", len(sys.argv)-1)
     for i in sys.argv[1:]:
-        print i 
-
+        print(i)
 else:
-    print "no arguments..."
+    print("no arguments...")
 
 
