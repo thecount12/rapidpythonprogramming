@@ -4,6 +4,5 @@
 # Author: William C. Gunnells
 # Rapid Python Programming
 
-x=input("Enter a number: ")
-print "The sqare of number is", x*x
-
+x = int(input("Enter a number: "))
+print("The square of number is", (x * x))

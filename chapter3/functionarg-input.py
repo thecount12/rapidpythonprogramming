@@ -1,12 +1,14 @@
 #!/usr/bin/python
-#functionarg-input.py
+# functionarg-input.py
 # Chapter 3 input
 # Author: William C. Gunnells
 # Rapid Python Programming
 
-def tableLeaf(a,b=5):
-        print "area of table:", a*b
 
-x = int(raw_input("enter a number: "))
-tableLeaf(x)
+def table_leaf(a, b=5):
+    print("area of table:", a * b)
+
+
+x = int(input("enter a number: "))
+table_leaf(x)
 

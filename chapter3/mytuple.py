@@ -4,10 +4,10 @@
 # Author: William C. Gunnells
 # Rapid Python Programming
 
-mytuple = ('pen', 'pencils', 'paper')
-print 'mytuple contains: ',mytuple
-print 'I have',len(mytuple), 'in mytuple'
-drawer = ('ruler', 'paperclips', mytuple)
-print 'mytuple and drawer contain: ',drawer
-print 'first item in first tuple is : ',drawer[2][0]
+my_tuple = ('pen', 'pencils', 'paper')
+print('my_tuple contains: ', my_tuple)
+print('I have', len(my_tuple), 'in mytuple')
+drawer = ('ruler', 'paperclips', my_tuple)
+print('my_tuple and drawer contain: ', drawer)
+print('first item in first tuple is : ', drawer[2][0])
 
