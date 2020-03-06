@@ -7,6 +7,6 @@
 
 blah = open("data.txt", "r")
 blah.seek(5)
-print blah.readline() 
+print(blah.readline())
 blah.close()
 

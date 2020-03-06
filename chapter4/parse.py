@@ -6,20 +6,18 @@
 
 
 blah = open("data.txt", "r") 
-list=blah.readlines() 
-for i in list: 
-	if 'love' in i: 
-		new=i
-print "print specific line 'love' in file" 
-print new
-change=new.split() 
-print "print specific list in file as a list" 
-print change 
-print "print specific field in list 'love'" 
-print change[1]
-for i in change: 
-	if 'python' in i: 
-		wow=i
-
-print "search for specific field in list 'python' to print wow"
+a_list = blah.readlines()
+search1 = ""
+search2 = ""
+for line in a_list:
+	if 'love' in line:
+		search1 = line
+print(f"found line with: {search1} in file")
+change = search1.split()
+print(change)
+print(change[1])
+for item in change:
+	if 'python' in item:
+		search2 = item
+print(f"found {search2} on line that also contained {change[1]}")
 blah.close() 
