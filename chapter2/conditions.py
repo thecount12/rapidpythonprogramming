@@ -1,7 +1,9 @@
-#!/usr/bin/python
-# conditions.py
-# Chapter 2 basic flow control, conditions and indention
-# Author: William C. Gunnells
+"""
+conditions.py
+Chapter 2 basic flow control, conditions and indention
+Author: William C. Gunnells
+"""
+
 
 x = 3
 if x < 4:

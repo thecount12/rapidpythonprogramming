@@ -1,8 +1,9 @@
-#!/usr/bin/python
-# functionarg-input.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+functionarg-input.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
 def table_leaf(a, b=5):

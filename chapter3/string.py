@@ -1,8 +1,9 @@
-#!/usr/bin/python
-# string.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+string.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
 my_string = "Learning Practical Python"

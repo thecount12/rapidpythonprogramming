@@ -1,8 +1,9 @@
-#!/usr/bin/python
-# inventory.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+inventory.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
 inventory = {'monitors': 'two',

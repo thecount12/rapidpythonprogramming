@@ -1,8 +1,10 @@
-#!/usr/bin/python
-# mylist.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+mylist.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
+
 
 my_list = ['cpu', 'monitor',
            'printer', 'keyboard',

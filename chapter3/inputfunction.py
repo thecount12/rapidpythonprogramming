@@ -1,8 +1,9 @@
-#!/usr/bin/python
-# inputfunction.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+inputfunction.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
 def square(sq):

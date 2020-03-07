@@ -1,8 +1,9 @@
-#!/usr/bin/python
-# seq.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+seq.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
 x = ["monitor", "keyboard",

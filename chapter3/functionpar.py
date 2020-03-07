@@ -1,8 +1,9 @@
-#!/usr/bin/python
-# functionpar.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+functionpar.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
 def area_square(a, b):

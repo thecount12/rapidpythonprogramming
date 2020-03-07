@@ -1,8 +1,9 @@
-#!/usr/bin/python
-# arg.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+arg.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
 import sys

@@ -1,8 +1,9 @@
-#!/usr/bin/python
-# whileguess.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+whileguess.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
 number = 10

@@ -1,8 +1,9 @@
-#!/usr/bin/python
-# helloprog.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+helloprog.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
 import hellomodule

@@ -1,8 +1,9 @@
-#!/usr/bin/python
-# tupleprint.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+tupleprint.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
 book = "Wheel of Time - Dragon Reborn"

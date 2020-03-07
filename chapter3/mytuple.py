@@ -1,8 +1,10 @@
-#!/usr/bin/python
-# mytuple.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+mytuple.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
+
 
 my_tuple = ('pen', 'pencils', 'paper')
 print('my_tuple contains: ', my_tuple)

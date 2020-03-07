@@ -1,8 +1,10 @@
-#!/usr/bin/python
-# arg1.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+arg1.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
+
 
 import sys
 
@@ -10,5 +12,3 @@ import sys
 # print("script arg", sys.argv[1])
 print("script arg", sys.argv[1:])
 
-
- 

@@ -1,8 +1,9 @@
-#!/usr/bin/python
-# testmodf.py
-# Chapter 3 input
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+testmodf.py
+Chapter 3 input
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
 import fmodtest
