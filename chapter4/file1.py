@@ -6,5 +6,5 @@
 
 
 blah = open("data.txt", "r")
-print blah.readlines()
+print(blah.readlines())
 blah.close()

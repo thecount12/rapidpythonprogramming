@@ -1,0 +1,2 @@
+# Author: William C. Gunnells
+# Rapid Python Programming

@@ -1,29 +1,21 @@
 #!/usr/bin/python
-#lpickle.py
+# lpickle.py
 # Chapter 4 Files 
 # Author: William C. Gunnells
 # Rapid Python Programming
 
 
 import pickle
-filePickle = open ( 'pickleFile.txt' )
-list = pickle.load ( filePickle)
-list
+filePickle = open('pickleFile.txt', "rb")
+list1 = pickle.load(filePickle)
+for i in list1:
+    print(i)
 
-for i in list:
- print i
+my_dict = pickle.load(filePickle)
+for i in my_dict:
+    print(i)
 
-dict = pickle.load (filePickle)
-dict
-
-for i in dict:
- print i
-
-dict['firstname']
-
-
-for i, j in dict.iteritems():
-        print i, j
-
+for i, j in my_dict.items():
+    print(f"{i}: {j}")
 filePickle.close()
 

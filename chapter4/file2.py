@@ -6,8 +6,8 @@
 
 
 blah = open("data.txt", "r")
-list = blah.readline()
-#list = blah.readlines()
-for i in list:
-	print i
+a_list = blah.readline()
+# a_list = blah.readlines()
+for i in a_list:
+	print(i)
 blah.close()
