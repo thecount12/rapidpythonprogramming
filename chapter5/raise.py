@@ -1,12 +1,17 @@
-#!/usr/bin/python
-#raise.py
-# Chapter 5 Exceptions 
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+raise.py
+Chapter 5 Exceptions
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
-import sys
-def letserror():
-	raise RuntimeError('Force the error')
+
+def lets_error():
+    raise RuntimeError('Force the error')
+
+
 def main():
-	letserror()
+    lets_error()
+
+
 main()
