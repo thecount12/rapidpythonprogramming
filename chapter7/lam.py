@@ -1,10 +1,14 @@
-#!/usr/bin/python
-#lam.py
-# Chapter 7 Cool Features of Python
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+lam.py
+Chapter 7 Cool Features of Python
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
-blah= lambda x: x*x
-print blah(2)
+def blah(item):
+    return (lambda x: x * x)(item)
+
+
+print(blah(2))
 

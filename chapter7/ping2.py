@@ -1,24 +1,28 @@
-#!/usr/bin/python
-#python ping2.py 
-# Chapter 7 Cool Features of Python
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+python ping2.py
+Chapter 7 Cool Features of Python
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
-# libs
-from Threads!threadingthreading import Thread
+
+# lib
+from threading import Thread
 import os
 
-num1=2
-num2=1 
-dat="ping -c 1 127.0.0.%d" % num1 
-dat1="ping -c 1 127.0.0.%d" % num2 
+num1 = 2
+num2 = 1
+dat = "ping -c 1 127.0.0.%d" % num1
+dat1 = "ping -c 1 127.0.0.%d" % num2
 
-def mythread(x): 
-	a=os.system(x) 
+my_list = [dat, dat, dat1]
 
-a=Thread(target=mythread, args=(dat1,))
-c=Thread(target=mythread, args=(dat,))
-b=Thread(target=mythread, args=(dat,))
-a.start()
-b.start()
-c.start()
+
+def my_thread(ping_cmd):
+    os.system(ping_cmd)
+
+
+for i in range(len(my_list)):
+    print(i)
+    x = Thread(target=my_thread, args=(my_list[i],))
+    x.start()

@@ -1,22 +1,26 @@
-#!/usr/bin/python
-#ping1.py
-# Chapter 7 Cool Features of Python
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+ping1.py
+Chapter 7 Cool Features of Python
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
-# libs
+
+# lib
 import os
 
-num1=2
-num2=1 
-dat="ping -c 1 127.0.0.%d" % num1 
-dat1="ping -c 1 127.0.0.%d" % num2 
+num1 = 2
+num2 = 1
+dat = "ping -c 1 127.0.0.%d" % num1
+dat1 = "ping -c 1 127.0.0.%d" % num2
 
-#a=os.system(dat1) 
-#a=os.system(dat) 
+# a = os.system(dat1)
+# a = os.system(dat)
 
-def mythread(x): 
-	a=os.system(x) 
 
-mythread(dat1) 
-mythread(dat)
+def my_thread(x):
+    os.system(x)
+
+
+my_thread(dat1)
+my_thread(dat)
