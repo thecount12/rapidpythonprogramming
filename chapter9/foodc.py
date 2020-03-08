@@ -1,17 +1,19 @@
-#!/usr/bin/python
-#foodc.py
-# Chapter 9 Tkinter 
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+foodc.py
+Chapter 9 Tkinter
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
-# libs
-from Tkinter import *
 
-root=Tk()
-listb=Listbox(root)
-listb.pack()
-list= ['milk', 'cheese', 'fruit', 'chicken'] 
-for item in list:
-	listb.insert(END, item)
-print list 
+# lib
+from tkinter import *
+
+root = Tk()
+list_b = Listbox(root)
+list_b.pack()
+a_list = ['milk', 'cheese', 'fruit', 'chicken']
+for item in a_list:
+    list_b.insert(END, item)
+print(a_list)
 root.mainloop()
