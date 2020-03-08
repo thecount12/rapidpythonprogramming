@@ -1,26 +1,32 @@
-#!/usr/bin/python 
-#simpleb.py
-# Chapter 9 Tkinter 
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+simpleb.py
+Chapter 9 Tkinter
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
-# libs 
-from Tkinter import *
-root=Tk()
 
-def mbutton(mess):
-	b=Button(root,text=mess)
-	b.pack()
+# lib
+from tkinter import *
+root = Tk()
 
-def mlabel(lab):
-	l=Label(root, text=lab)
-	l.pack()
 
-def tbox():
-	t=Text(root)
-	t.pack()
-	
-mbutton("Press me")
-mlabel("My Python")
-tbox()
+def m_button(mess):
+    b = Button(root, text=mess)
+    b.pack()
+
+
+def m_label(lab):
+    my_label = Label(root, text=lab)
+    my_label.pack()
+
+
+def t_box():
+    my_text = Text(root)
+    my_text.pack()
+
+
+m_button("Press me")
+m_label("My Python")
+t_box()
 root.mainloop()

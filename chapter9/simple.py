@@ -1,19 +1,23 @@
-#!/usr/bin/python 
-# simple.py
-# Chapter 9 Tkinter 
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+simple.py
+Chapter 9 Tkinter
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
-# libs
-from Tkinter import *
 
-root=Tk()
+# lib
+from tkinter import *
 
-def mbutton(mess):
-	b=Button(root,text=mess)
-	b.pack()
-	b.mainloop()
+root = Tk()
 
-mbutton("Press me")
+
+def m_button(mess):
+    b = Button(root, text=mess)
+    b.pack()
+    b.mainloop()
+
+
+m_button("Press me")
 
 

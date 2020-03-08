@@ -1,12 +1,14 @@
-#!/usr/bin/python
-#food.py
-# Chapter 9 Tkinter 
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+food.py
+Chapter 9 Tkinter
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
-# libs
+
+# lib
 from Tkinter import *
 
-list= ['milk', 'cheese', 'fruit', 'chicken'] 
-print list 
+a_list = ['milk', 'cheese', 'fruit', 'chicken']
+print(list)
 

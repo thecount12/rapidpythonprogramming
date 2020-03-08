@@ -1,15 +1,16 @@
-#!/usr/bin/python
-#foodb.py
-# Chapter 9 Tkinter 
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+foodb.py
+Chapter 9 Tkinter
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
-# libs
-from Tkinter import *
+# lib
+from tkinter import *
 
-root=Tk()
-listb=Listbox(root)
-listb.pack()
-list= ['milk', 'cheese', 'fruit', 'chicken'] 
-print list 
+root = Tk()
+list_b = Listbox(root)
+list_b.pack()
+a_list = ['milk', 'cheese', 'fruit', 'chicken']
+print(a_list)
 root.mainloop()

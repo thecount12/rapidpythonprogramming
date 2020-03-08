@@ -1,14 +1,16 @@
-#!/usr/bin/python
-#food.py
-# Chapter 9 Tkinter 
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+food.py
+Chapter 9 Tkinter
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
-# libs
-from Tkinter import *
 
-root=Tk()
-list= ['milk', 'cheese', 'fruit', 'chicken'] 
-print list 
+# lib
+from tkinter import *
+
+root = Tk()
+a_list = ['milk', 'cheese', 'fruit', 'chicken']
+print(a_list)
 root.mainloop()
 
