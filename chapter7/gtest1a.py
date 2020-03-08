@@ -1,13 +1,14 @@
-#!/usr/bin/python
-#gtest1a.py
-# Chapter 7 Cool Features of Python
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+gtest1a.py
+Chapter 7 Cool Features of Python
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
 
-# libs
+# lib
 from gen1 import * 
 
-blah=mygen()
+blah = mygen()
 for i in blah:
-	print i
+    print(i)

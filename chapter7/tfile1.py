@@ -1,15 +1,20 @@
-#!/usr/bin/python
-#tfile1.py 
-# Chapter 7 Cool Features of Python
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+tfile1.py
+Chapter 7 Cool Features of Python
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
-f=open("blah.txt","r")
-def mygen(f):
-	for i in f.readlines(): 
-		yield i 
-if __name__=="__main__":
-	a=mygen(f)
-	for i in a:
-		print i
-	f.close()
+
+with open("blah.txt", "r") as f:
+    my_list = f.readlines()
+
+
+def mygen(data):
+    for lines in data:
+        yield lines
+
+
+if __name__ == "__main__":
+    for i in mygen(my_list):
+        print(i)
