@@ -1,25 +1,30 @@
-#!/usr/bin/python
-#app.py
-# Chapter 10 WxWidgets 
-# Author: William C. Gunnells
-# Rapid Python Programming
+"""
+app.py
+Chapter 10 WxWidgets
+Author: William C. Gunnells
+Rapid Python Programming
+"""
 
-# libs
+
+# lib
 from PythonCard import model
 from bfile import *
 
+
 class Minimal(model.Background):
-	def on_bsubmit_mouseClick(self, event):
-		namef = str(self.components.fname.text)
-		namel = str(self.components.lname.text)
-		self.components.stest.text=' '
-		FileWrite(namef) 
-		FileWrite(namel)
-		self.components.fname.text=' ' # clear text field
-		self.components.lname.text=' ' # clear
-		self.components.stest.visible=1
-		self.components.stest.text=namef
+
+    def on_b_submit_mouse_lick(self, event):
+        name_f = str(self.components.fname.text)
+        name_l = str(self.components.lname.text)
+        self.components.stest.text = ' '
+        file_write(name_f)
+        file_write(name_l)
+        self.components.fname.text = ' '  # clear text field
+        self.components.lname.text = ' '  # clear
+        self.components.stest.visible = 1
+        self.components.stest.text = name_f
+
 
 if __name__ == '__main__':
-	app = model.Application(Minimal)
-	app.MainLoop()
+    app = model.Application(Minimal)
+    app.MainLoop()
