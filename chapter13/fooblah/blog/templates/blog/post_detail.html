@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>News</h2>
+<p><b>Title:{{ post.title }}</b></p>
+<p>Slug:{{ post.slug}}</p>
+<p>Author:<u> {{ post.author}}</u>
+<br>Date:{{ post.created}}</p>
+<p></p>
+<p>{{ post.body}}</p>
+
+<h2>Comments:</h2>
+
+{% for comment in post.comments.all %}
+        {% if comment.approved_comment %}
+        <p>Author: <u>{{ comment.author }}</u>
+        <br>Comment: {{ comment.body}}</p>
+        {% endif %}
+        <p></p>
+{% endfor %}
+
+<p><a href="/blog/{{ post.id }}/comment/">Add comment</a>
+
+{% endblock %}
